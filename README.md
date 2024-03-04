@@ -17,18 +17,3 @@ Features:
 Automatically adds extra cheese and extra toppings to the pizza.
 Inherits all features from the Pizza class.
 
-Usage
-To use the pizza ordering system, create instances of the Pizza or DeluxPizza class and call the appropriate methods to customize the pizza and generate the bill.
-
-java
-// Example usage of Pizza class
-Pizza basePizza = new Pizza(true);
-basePizza.addExtraCheese();
-basePizza.addExtraToppings();
-basePizza.takeAway();
-basePizza.getBill();
-
-// Example usage of DeluxPizza class
-DeluxPizza dp = new DeluxPizza(false);
-dp.takeAway();
-dp.getBill();
